@@ -1,17 +1,17 @@
-let value: any = 100;
-console.log(value);
+let product: any = 250;
+console.log(product);
 
-value = "Hello";
-console.log(value);
+product = "Mouse";
+console.log(product);
 
-let data: unknown = "TypeScript";
+let userName: unknown = "Lavanya";
 
-if (typeof data === "string") {
-    console.log(data.toUpperCase());
+if (typeof userName === "string") {
+    console.log(userName.toLowerCase());
 }
 
-function greet(): void {
-    console.log("Welcome to TypeScript");
+function displayMessage(): void {
+    console.log("Learning TypeScript is fun!");
 }
 
-greet();
+displayMessage();
