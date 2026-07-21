@@ -1,7 +1,7 @@
-let studentName: string = "Lavanya";
-let age: number = 18;
-let isStudent: boolean = true;
+let mobileBrand: string = "Samsung";
+let price: number = 25000;
+let isAvailable: boolean = true;
 
-console.log("Name:", studentName);
-console.log("Age:", age);
-console.log("Student:", isStudent);
+console.log("Mobile Brand:", mobileBrand);
+console.log("Price:", price);
+console.log("Available:", isAvailable);
